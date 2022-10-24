@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "name": "trigger-function-with-buckets",
+  "version": "1.0.0",
+  "description": "An example of triggering a function when a file arrives in a bucket.",
+  "main": "handler.js",
+  "scripts": {
+    "deploy": "node scripts/deploy.js",
+    "local": "node scripts/local.js",
+    "clean": "node scripts/clean.js",
+    "setup": "node scripts/setup.js && node scripts/notification.js"
+  },
+  "author": "Stedi",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@stedi/cli": "^0.0.17",
+    "@stedi/sdk-client-functions": "^0.0.19",
+    "dotenv": "^16.0.3",
+    "esbuild": "^0.15.11",
+    "jszip": "^3.10.1"
+  },
+  "dependencies": {
+    "@stedi/sdk-client-buckets": "^0.0.18"
+  }
+}
