@@ -1,6 +1,6 @@
 {
   "type": "module",
-  "name": "trigger-function-with-buckets",
+  "name": "bucket-notifications",
   "version": "1.0.0",
   "description": "An example of triggering a function when a file arrives in a bucket.",
   "main": "handler.js",

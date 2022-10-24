@@ -37,8 +37,8 @@ You need to install:
 You need to clone this repository and install its dependencies.
 
 ```console
-git clone https://github.com/Stedi-Demos/trigger-function-with-buckets.git
-cd trigger-function-with-buckets
+git clone https://github.com/Stedi-Demos/bucket-notifications.git
+cd bucket-notifications
 npm ci
 ```
 
