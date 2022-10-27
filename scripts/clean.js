@@ -59,7 +59,7 @@ async function deleteBucket(bucketsClient, bucketName) {
       );
     }
 
-    // The of files is paged, so go to the next page if necessary.
+    // The list of files is paged, so go to the next page if necessary.
     pageToken = listObjectsResult.nextPageToken;
   } while (pageToken !== undefined);
 
