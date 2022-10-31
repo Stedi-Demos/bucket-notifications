@@ -170,7 +170,7 @@ async function functionExists(functionsClient, functionName) {
 function generateSuffix() {
   // The suffix will be an alteration of consonants and vowels. That’ll make it easy to read and
   // type, should that be necessary.
-  const consonants = [ "b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z" ];
+  const consonants = [ "b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z" ];
   const vowels = [ "a", "e", "i", "o", "u" ];
 
   let suffix = "";
