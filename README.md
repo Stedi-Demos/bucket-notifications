@@ -59,7 +59,7 @@ File                                       | Description
 
 ### Function code
 
-This demo contains a basic function that shows how to retrieve a notification. It reads the contents of the file that was uploaded to the bucket, converts it to uppercase, and writes the result to an output bucket. Check out the [code of the function](src/deploy.js) for a detailed description.
+This demo contains a basic function that shows how to retrieve a notification. It reads the contents of the file that was uploaded to the bucket, converts it to uppercase, and writes the result to an output bucket. Check out the [code of the function](src/handler.js) for a detailed description.
 
 The function writes its output to a different bucket than the one that sends notifications, otherwise it would end up in an infinite loop.
 
