@@ -71,7 +71,7 @@ You can test the function on your local machine before you deploy it. However, t
 node scripts/setup.js
 ```
 
-Stedi Buckets can’t send a notification to your local machine, so we have to simulate an incoming notification. The [code of the local test script](src/local.js) explains how this is done.
+Stedi Buckets can’t send a notification to your local machine, so we have to simulate an incoming notification. The [code of the local test script](scripts/local.js) explains how this is done.
 
 The local test script simulates the creation of a file called `README.md`. You should upload that file to the input bucket, or the function won’t be able to read it. You can do this with the Stedi CLI, which was installed along with the other dependencies for this demo. There’s a catch, though: you need to know the name of the input bucket. Since bucket names need to be globally unique, the setup script generated a name specially for you. Fortunately, it wrote the name to the [settings file](scripts/settings.js#L12). Uploading the file looks something like this, but remember that you need to change the bucket name.
 
