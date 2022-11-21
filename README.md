@@ -1,6 +1,6 @@
 # Sending bucket notifications to a function
 
-A bucket can send a notification to a function running on Stedi every time it receives a file. The function will get a message as its first arguments with information about the file. It’ll look something like this.
+A bucket can send a notification to a function running on Stedi every time it receives a file. The function will get a message as its first argument with information about the file. It’ll look something like this.
 
 ```javascript
 {
